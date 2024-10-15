@@ -26,6 +26,14 @@ public class IceTask_6 {
         String vowels = "aeiou";
         int count = 0;
 
-
-}
+        // Iterate through the string
+        for (int i = 0; i < sentence.length(); i++) {
+            char ch = sentence.charAt(i);
+            // Check if the character is a vowel
+            if (vowels.indexOf(ch) != -1) {
+                count++;
+            }
+        }
+        return count;
+    }
 }
