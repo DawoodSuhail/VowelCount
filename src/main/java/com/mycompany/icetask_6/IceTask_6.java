@@ -17,6 +17,15 @@ public class IceTask_6 {
         String sentence = scanner.nextLine();
         int vowelCount = countVowels(sentence);
         System.out.println("The number of vowels in the sentence is: " + vowelCount);
-
     }
+
+    public static int countVowels(String sentence) {
+        // Convert sentence to lowercase for easier comparison
+        sentence = sentence.toLowerCase();
+        // List of vowels to check against
+        String vowels = "aeiou";
+        int count = 0;
+
+
+}
 }
